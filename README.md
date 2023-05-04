@@ -10,9 +10,9 @@ This repoistory is meant to help guide you as you set up a working version of a 
 
 In this hands on series...
 
-1. Have an Azure Subscription where this solution can be deployed
+1. Have an Azure Subscription where this solution can be deployed. This is usually linked to your organization.
 
-2. Sign up for Azure Open AI. This will be linked to the subscription ID above. 
+2. Sign up for Azure Open AI. This will be linked to the subscription ID above. [How Do I Get Access?](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview#how-do-i-get-access-to-azure-openai)
 
 3. [Understand Prompt Engineering](https://www.deeplearning.ai/)
 
