@@ -22,7 +22,7 @@ In this hands on series...
 
 | Module | Topic | Duration |
 |--------|--------------------------------|----|
-| [Module 1](./Module1.md)  | Install System Pre-requisites | 1 hour |
+| [Module 1](./Module1.md) | Install System Pre-requisites | 1 hour |
 | [Module 2](./Module2.md) | Deploy the solution accelerator | 2 hours |
 | [Module 3](./Module3.md) | Make code changes to support an existing Azure Open AI deployment | 2 hours |
 | [Module 4](./Module4.md) | Load your own data | 1 hour |
