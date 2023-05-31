@@ -2,6 +2,12 @@
 
 By now you have a working application but you notice that the starting questions are not helpful.
 
+## Load your data
+
+You can load unstructured data (PDF) and/or structured data (CSV) into the search service so that GPT can query it.
+
+
+
 ## Make changes to the Predefined Questions
 
 Look in the file `app\frontend\src\components\Example\ExampleList.tsx`
