@@ -25,8 +25,9 @@ In this hands on series...
 | [Module 1](./Module1.md)  | Install System Pre-requisites | 1 hour |
 | [Module 2](./Module2.md) | Deploy the solution accelerator | 2 hours |
 | [Module 3](./Module3.md) | Make code changes to support an existing Azure Open AI deployment | 2 hours |
-| [Module 4](./Module4.md) | Update Front End Questions  | 1 hour |
-| [Module 5](./Module5.md) | Update Branding and Look & Feel  | 1 hour |
+| [Module 4](./Module4.md) | Load your own data | 1 hour |
+| [Module 5](./Module5.md) | Change the predefined questions | 1 hour |
+| [Module 6](./Module6.md) | Change the branding and look & feel  | 1 hour |
 
 ## Final Demonstration Flow Setup
 Create a story line for your questions and elements that you will highlight during the demonstration. Test this several times so you catch any hallucinations and therefore risks in inaccurate answers early on. 
