@@ -2,7 +2,7 @@
 
 ![MTC Header](./media/image2.jpeg)
 
-This repoistory is meant to help guide you as you set up a working version of a Chat GPT interface across your own data. This repo extends existing resources and is not meant as a replacement. In its optimum state, it is meant to be a coaching resource for the Micrsoft Technology Centre when helping customers Rapid Prototype this use-case. 
+This repository is meant to help guide you as you set up a working version of a Chat GPT interface across your own data. This repo extends existing resources and is not meant as a replacement. In its optimum state, it is meant to be a coaching resource for the Micrsoft Technology Centre when helping customers Rapid Prototype this use-case. 
 
 ![Hands On Logo](./media/image1.png)
 
