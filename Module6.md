@@ -8,7 +8,7 @@ In this section, we'll talk about how to customise the design from the default U
 
 ## Quick reference guide
 
-To find the source of each labelled component of the UI from the image below, go to the corresponding numbered heading.
+To find the source of each labelled component of the UI from the image below, and tips on customising it, go to the corresponding numbered heading.
 
 ![Main Bicep File](./media/default_ui.png)
 
