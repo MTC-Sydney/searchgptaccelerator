@@ -102,7 +102,18 @@ The right title is found in `app/frontend/src/pages/layout/Layout.tsx`. The text
 ### 6. Chat background colour
 ---
 
+The chat background is set in `app/frontend/src/index.css`. To change the colour, edit the the `background` property in the following CSS block, starting line 12.
 
+``` css
+html {
+    background: #f2f2f2;
+
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+```
 
 ### 7. Sparkle icon
 ---
