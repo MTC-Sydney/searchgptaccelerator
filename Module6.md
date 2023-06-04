@@ -118,35 +118,21 @@ html {
 ### 7. Sparkle icon
 ---
 
+The Sparkle icon (the star-shaped icon) is implemented in `app/frontend/src/pages/chat/Chat.tsx`. The icon is imported in line 3 (first snippet below). It's colour is set in line 137 of the same file, with a RGB colour code (second snippet below). Alter the `primaryFill` property for colour, `fontSize` for size, or replace the whole icon if you wish.
 
+``` typescript
+import { SparkleFilled } from "@fluentui/react-icons";
+```
+``` tsx
+<SparkleFilled fontSize={"120px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Chat logo" />
+```
 
 ### 8. Welcome text
 ---
 
-The header is the bar at the top of the page that contains the title of the app. We can change the text in the header by changing the text in the `title` tag in the `app/frontend/index.html` file.
+Found in `app/frontend/src/pages/layout/Chat.tsx`, lines 138 & 139. The text is set inside a h1 tag for "Chat with your data", and a h2 tag for "Ask anything or try an example". Edit this text if desired.
 
-### Navbar
----
-
-The navbar is the bar at the top of the page that contains the title of the app and the links to the different pages, along with a logo. 
-
-#### Colour
----
-
-TBC.
-
-To change the colour of the navbar, by changing the `background-color` variable in the `Layout.module.css` file in `app/frontend/src/pages/layout`. We can change the color of the text in the navbar by changing the `color` variable in the same file.
-
-### Chat
----
-
-TBC
-
-The chat is the central part of the page that contains the body of the app. We can change the color of the body by changing the `background-color` variable in the `app/frontend/src/pages/chat/Chat.module.css` file. We can change the color of the text in the same file. To change the star-shaped icon, we can change the `color` variable in the `app/frontend/src/pages/chat/Chat.tsx` file.
-
-TBC
-
-### Text
----
-
-We can change the color of the text by changing the `color` variable in the `assets/style.css` file. We can change the font of the text by changing the `font-family` variable in the `assets/style.css` file. We can change the size of the text by changing the `font-size` variable in the `assets/style.css` file.
+``` tsx
+<h1 className={styles.chatEmptyStateTitle}>Chat with your data</h1>
+<h2 className={styles.chatEmptyStateSubtitle}>Ask anything or try an example</h2>
+```
