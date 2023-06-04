@@ -93,7 +93,11 @@ To use your own logo, just replace everything with your own. That is, save your 
 ### 5. Navbar right title
 ---
 
+The right title is found in `app/frontend/src/pages/layout/Layout.tsx`. The text is in line 41. Edit the raw text to your desired naming.
 
+``` tsx
+<h4 className={styles.headerRightText}>Azure OpenAI + Cognitive Search</h4>
+```
 
 ### 6. Chat background colour
 ---
