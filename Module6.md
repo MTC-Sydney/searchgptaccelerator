@@ -75,7 +75,7 @@ import github from "../../assets/github.svg";
 
 Then, in the same file (`Layout.tsx`) scroll down to the following section, starting line 28. This is where the imported image is used.
 
-``` typescript
+``` html
 <a href="https://aka.ms/entgptsearch" target={"_blank"} title="Github repository link">
     <img
         src={github}
@@ -132,7 +132,7 @@ import { SparkleFilled } from "@fluentui/react-icons";
 
 Found in `app/frontend/src/pages/layout/Chat.tsx`, lines 138 & 139. The text is set inside a h1 tag for "Chat with your data", and a h2 tag for "Ask anything or try an example". Edit this text if desired.
 
-``` tsx
+``` html
 <h1 className={styles.chatEmptyStateTitle}>Chat with your data</h1>
 <h2 className={styles.chatEmptyStateSubtitle}>Ask anything or try an example</h2>
 ```
