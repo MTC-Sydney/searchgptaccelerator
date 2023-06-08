@@ -23,7 +23,7 @@ Found in `app/frontend/src/pages/layout/Layout.tsx`. The title text itself is se
 </Link>
 ```
 
-The title's colour is set in `app/frontend/src/pages/layout/Layout.module.css`, inside the `headerTitleContainer` CSS block starting line 20. To change the colour, alter the pre-existing `color` property to a desired hexadeical colour code:
+The title's colour is set in `app/frontend/src/pages/layout/Layout.module.css`, inside the `headerTitleContainer` CSS block starting line 20. To change the colour, alter the pre-existing `color` property to a desired hexadecimal colour code:
 
 ``` css
 .headerTitleContainer {
@@ -88,7 +88,7 @@ Then, in the same file (`Layout.tsx`) scroll down to the following section, star
 </a>
 ```
 
-To use your own logo, just replace everything with your own. That is, save your own logo into the `assets` folder, import it in the `Layout.tsx` file, then use it where the GitHub logo was used in the above code snippet. In the default state, the logo is inside a href tag containing a link to `https://aka.ms/entgptsearch`. You may change this link to any URL of your choosing.
+To use your own logo, just replace everything with your own. That is, save your own logo into the `assets` folder, import it in the `Layout.tsx` file, then use it where the GitHub logo was used in the above code snippet. Note that you only need to modify the 'src' property, but you may also update the alt text with 'alt', and the label text with 'aria-label'. In the default state, the logo is inside a href tag containing a link to `https://aka.ms/entgptsearch`. You may change this link to any URL of your choosing.
 
 ### 5. Navbar right title
 ---
@@ -118,7 +118,7 @@ html {
 ### 7. Sparkle icon
 ---
 
-The Sparkle icon (the star-shaped icon) is implemented in `app/frontend/src/pages/chat/Chat.tsx`. The icon is imported in line 3 (first snippet below). It's colour is set in line 137 of the same file, with a RGB colour code (second snippet below). Alter the `primaryFill` property for colour, `fontSize` for size, or replace the whole icon if you wish.
+The Sparkle icon (the star-shaped icon) is implemented in `app/frontend/src/pages/chat/Chat.tsx`. The icon is imported in line 3 (first snippet below). Its colour is set in line 137 of the same file, with a RGB colour code (second snippet below). Alter the `primaryFill` property for colour, `fontSize` for size, or replace the whole icon if you wish.
 
 ``` typescript
 import { SparkleFilled } from "@fluentui/react-icons";
