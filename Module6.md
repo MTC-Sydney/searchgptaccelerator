@@ -88,7 +88,7 @@ Then, in the same file (`Layout.tsx`) scroll down to the following section, star
 </a>
 ```
 
-To use your own logo, just replace everything with your own. That is, save your own logo into the `assets` folder, import it in thr `Layout.tsx` file, then use it where the GitHub logo was used in the above code snippet. In the default state, the logo is inside a href tag containing a link to `https://aka.ms/entgptsearch`. You may change this link to any URL of your choosing.
+To use your own logo, just replace everything with your own. That is, save your own logo into the `assets` folder, import it in the `Layout.tsx` file, then use it where the GitHub logo was used in the above code snippet. In the default state, the logo is inside a href tag containing a link to `https://aka.ms/entgptsearch`. You may change this link to any URL of your choosing.
 
 ### 5. Navbar right title
 ---
