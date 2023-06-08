@@ -67,7 +67,7 @@ Both "Chat" and "Ask a question" are found in `app/frontend/src/pages/layout/Lay
 ### 4. Navbar logo
 ---
 
-The original logo is the GitHub icon. The image is stored inside the `app/frontend/src/assets` folder. You will find `github.svg` there. Using a `.svg` file is recommend, but a screenshot of your desired logo works fine. The image is imported in `app/frontend/src/pages/layout/Layout.tsx`. At the top of the file, it is imported at line 3.
+The original logo is the GitHub icon. The image is stored inside the `app/frontend/src/assets` folder. You will find `github.svg` there. Using a `.svg` file is recommended, but a screenshot of your desired logo works fine. The image is imported in `app/frontend/src/pages/layout/Layout.tsx`. At the top of the file, it is imported at line 3.
 
 ``` typescript
 import github from "../../assets/github.svg";
